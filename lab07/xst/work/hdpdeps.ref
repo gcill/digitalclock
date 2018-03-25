@@ -1,0 +1,7 @@
+V3 3
+FL D:/github/digitalclock/lab07/lablablab.vhd 2018/03/19.15:45:10 P.20131013
+EN work/lablablab 1521449113 FL D:/github/digitalclock/lab07/lablablab.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/lablablab/Behavioral 1521449114 \
+      FL D:/github/digitalclock/lab07/lablablab.vhd EN work/lablablab 1521449113

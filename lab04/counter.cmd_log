@@ -1,0 +1,54 @@
+xst -intstyle ise -ifn "D:/dowload/CE 2D/xilinx/lab04/counter.xst" -ofn "D:/dowload/CE 2D/xilinx/lab04/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "counter.ngc" counter.ngd  
+xst -intstyle ise -ifn "D:/dowload/CE 2D/xilinx/lab04/counter.xst" -ofn "D:/dowload/CE 2D/xilinx/lab04/counter.syr" 
+xst -intstyle ise -ifn "D:/dowload/CE 2D/xilinx/lab04/counter.xst" -ofn "D:/dowload/CE 2D/xilinx/lab04/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+xst -intstyle ise -ifn "D:/dowload/CE 2D/xilinx/lab04/counter.xst" -ofn "D:/dowload/CE 2D/xilinx/lab04/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+xst -intstyle ise -ifn "D:/dowload/CE 2D/xilinx/lab04/counter.xst" -ofn "D:/dowload/CE 2D/xilinx/lab04/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+xst -intstyle ise -ifn "D:/dowload/CE 2D/xilinx/lab04/counter.xst" -ofn "D:/dowload/CE 2D/xilinx/lab04/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+xst -intstyle ise -ifn "D:/dowload/CE 2D/xilinx/lab04/counter.xst" -ofn "D:/dowload/CE 2D/xilinx/lab04/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+xst -intstyle ise -ifn "D:/dowload/CE 2D/xilinx/lab04/counter.xst" -ofn "D:/dowload/CE 2D/xilinx/lab04/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab04/counter.xst" -ofn "D:/github/digitalclock/lab04/counter.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab04/counter.xst" -ofn "D:/github/digitalclock/lab04/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 counter.ngc counter.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s400-tq144-4 counter.ngc counter.ngd  

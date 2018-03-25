@@ -1,0 +1,196 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf
+-ucf lablablab.ucf
+
+Design file:              lablablab.ncd
+Physical constraint file: lablablab.pcf
+Device,package,speed:     xc3s400,tq144,-4 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+com<0>      |    9.497(R)|clk_BUFGP         |   0.000|
+com<1>      |    9.139(R)|clk_BUFGP         |   0.000|
+seg7<0>     |   14.518(R)|clk_BUFGP         |   0.000|
+seg7<1>     |   14.639(R)|clk_BUFGP         |   0.000|
+seg7<2>     |   15.228(R)|clk_BUFGP         |   0.000|
+seg7<3>     |   14.888(R)|clk_BUFGP         |   0.000|
+seg7<4>     |   13.886(R)|clk_BUFGP         |   0.000|
+seg7<5>     |   15.107(R)|clk_BUFGP         |   0.000|
+seg7<6>     |   13.910(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.615|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |seg7<0>        |   17.431|
+a<0>           |seg7<1>        |   16.544|
+a<0>           |seg7<2>        |   17.540|
+a<0>           |seg7<3>        |   16.621|
+a<0>           |seg7<4>        |   16.404|
+a<0>           |seg7<5>        |   17.247|
+a<0>           |seg7<6>        |   16.677|
+a<1>           |seg7<0>        |   16.981|
+a<1>           |seg7<1>        |   16.350|
+a<1>           |seg7<2>        |   17.346|
+a<1>           |seg7<3>        |   16.427|
+a<1>           |seg7<4>        |   16.210|
+a<1>           |seg7<5>        |   17.053|
+a<1>           |seg7<6>        |   16.483|
+a<2>           |seg7<0>        |   16.584|
+a<2>           |seg7<1>        |   15.953|
+a<2>           |seg7<2>        |   16.949|
+a<2>           |seg7<3>        |   16.030|
+a<2>           |seg7<4>        |   15.732|
+a<2>           |seg7<5>        |   16.656|
+a<2>           |seg7<6>        |   16.086|
+a<3>           |seg7<0>        |   16.394|
+a<3>           |seg7<1>        |   15.763|
+a<3>           |seg7<2>        |   16.759|
+a<3>           |seg7<3>        |   15.840|
+a<3>           |seg7<4>        |   15.542|
+a<3>           |seg7<5>        |   16.466|
+a<3>           |seg7<6>        |   15.896|
+a<4>           |seg7<0>        |   15.844|
+a<4>           |seg7<1>        |   15.213|
+a<4>           |seg7<2>        |   16.209|
+a<4>           |seg7<3>        |   15.304|
+a<4>           |seg7<4>        |   15.209|
+a<4>           |seg7<5>        |   15.916|
+a<4>           |seg7<6>        |   15.563|
+a<5>           |seg7<0>        |   16.261|
+a<5>           |seg7<1>        |   15.669|
+a<5>           |seg7<2>        |   16.626|
+a<5>           |seg7<3>        |   16.165|
+a<5>           |seg7<4>        |   16.070|
+a<5>           |seg7<5>        |   16.384|
+a<5>           |seg7<6>        |   16.424|
+a<6>           |seg7<0>        |   14.827|
+a<6>           |seg7<1>        |   14.738|
+a<6>           |seg7<2>        |   15.327|
+a<6>           |seg7<3>        |   15.234|
+a<6>           |seg7<4>        |   14.839|
+a<6>           |seg7<5>        |   15.453|
+a<6>           |seg7<6>        |   15.493|
+a<7>           |seg7<0>        |   13.871|
+a<7>           |seg7<1>        |   13.782|
+a<7>           |seg7<2>        |   14.371|
+a<7>           |seg7<3>        |   14.278|
+a<7>           |seg7<4>        |   13.883|
+a<7>           |seg7<5>        |   14.497|
+a<7>           |seg7<6>        |   14.537|
+b<0>           |seg7<0>        |   16.356|
+b<0>           |seg7<1>        |   15.469|
+b<0>           |seg7<2>        |   16.465|
+b<0>           |seg7<3>        |   15.546|
+b<0>           |seg7<4>        |   15.329|
+b<0>           |seg7<5>        |   16.172|
+b<0>           |seg7<6>        |   15.602|
+b<1>           |seg7<0>        |   15.724|
+b<1>           |seg7<1>        |   15.093|
+b<1>           |seg7<2>        |   16.089|
+b<1>           |seg7<3>        |   15.170|
+b<1>           |seg7<4>        |   14.953|
+b<1>           |seg7<5>        |   15.796|
+b<1>           |seg7<6>        |   15.226|
+b<2>           |seg7<0>        |   15.522|
+b<2>           |seg7<1>        |   14.891|
+b<2>           |seg7<2>        |   15.887|
+b<2>           |seg7<3>        |   14.968|
+b<2>           |seg7<4>        |   14.670|
+b<2>           |seg7<5>        |   15.594|
+b<2>           |seg7<6>        |   15.024|
+b<3>           |seg7<0>        |   15.871|
+b<3>           |seg7<1>        |   15.240|
+b<3>           |seg7<2>        |   16.236|
+b<3>           |seg7<3>        |   15.317|
+b<3>           |seg7<4>        |   15.019|
+b<3>           |seg7<5>        |   15.943|
+b<3>           |seg7<6>        |   15.373|
+b<4>           |seg7<0>        |   16.128|
+b<4>           |seg7<1>        |   15.497|
+b<4>           |seg7<2>        |   16.493|
+b<4>           |seg7<3>        |   15.588|
+b<4>           |seg7<4>        |   15.493|
+b<4>           |seg7<5>        |   16.200|
+b<4>           |seg7<6>        |   15.847|
+b<5>           |seg7<0>        |   15.341|
+b<5>           |seg7<1>        |   14.749|
+b<5>           |seg7<2>        |   15.706|
+b<5>           |seg7<3>        |   15.245|
+b<5>           |seg7<4>        |   15.150|
+b<5>           |seg7<5>        |   15.464|
+b<5>           |seg7<6>        |   15.504|
+b<6>           |seg7<0>        |   14.392|
+b<6>           |seg7<1>        |   14.303|
+b<6>           |seg7<2>        |   14.892|
+b<6>           |seg7<3>        |   14.799|
+b<6>           |seg7<4>        |   14.404|
+b<6>           |seg7<5>        |   15.018|
+b<6>           |seg7<6>        |   15.058|
+b<7>           |seg7<0>        |   14.853|
+b<7>           |seg7<1>        |   14.764|
+b<7>           |seg7<2>        |   15.353|
+b<7>           |seg7<3>        |   15.260|
+b<7>           |seg7<4>        |   14.865|
+b<7>           |seg7<5>        |   15.479|
+b<7>           |seg7<6>        |   15.519|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 19 15:45:35 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 195 MB
+
+
+

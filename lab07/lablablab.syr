@@ -1,0 +1,404 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: lablablab.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "lablablab.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "lablablab"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-tq144
+
+---- Source Options
+Top Module Name                    : lablablab
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/github/digitalclock/lab07/lablablab.vhd" in Library work.
+Entity <lablablab> compiled.
+Entity <lablablab> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <lablablab> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lablablab> in library <work> (Architecture <behavioral>).
+Entity <lablablab> analyzed. Unit <lablablab> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <lablablab>.
+    Related source file is "D:/github/digitalclock/lab07/lablablab.vhd".
+WARNING:Xst:647 - Input <button> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <xorsum> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <subsum> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <shlsum> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <div> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 16x7-bit ROM for signal <seg7lsb>.
+    Found 16x7-bit ROM for signal <seg7msb>.
+    Found 8-bit adder for signal <addsum>.
+    Found 17-bit up counter for signal <CLKint>.
+    Found 1-bit register for signal <count>.
+    Found 17-bit comparator less for signal <count$cmp_lt0000> created at line 73.
+    Summary:
+	inferred   2 ROM(s).
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <lablablab> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 2
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 17-bit up counter                                     : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Comparators                                          : 1
+ 17-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 2
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 17-bit up counter                                     : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 1
+ 17-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lablablab> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lablablab, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : lablablab.ngr
+Top Level Output File Name         : lablablab
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 30
+
+Cell Usage :
+# BELS                             : 121
+#      GND                         : 1
+#      INV                         : 13
+#      LUT1                        : 18
+#      LUT2                        : 10
+#      LUT4                        : 15
+#      MUXCY                       : 31
+#      MUXF5                       : 7
+#      VCC                         : 1
+#      XORCY                       : 25
+# FlipFlops/Latches                : 18
+#      FD                          : 17
+#      FDR                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 25
+#      IBUF                        : 16
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400tq144-4 
+
+ Number of Slices:                       25  out of   3584     0%  
+ Number of Slice Flip Flops:             18  out of   7168     0%  
+ Number of 4 input LUTs:                 56  out of   7168     0%  
+ Number of IOs:                          30
+ Number of bonded IOBs:                  26  out of     97    26%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.853ns (Maximum Frequency: 145.922MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 8.910ns
+   Maximum combinational path delay: 14.413ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.853ns (frequency: 145.921MHz)
+  Total number of paths / destination ports: 166 / 18
+-------------------------------------------------------------------------
+Delay:               6.853ns (Levels of Logic = 10)
+  Source:            CLKint_4 (FF)
+  Destination:       count (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: CLKint_4 to count
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.720   1.216  CLKint_4 (CLKint_4)
+     LUT1:I0->O            1   0.551   0.000  Mcompar_count_cmp_lt0000_cy<0>_rt (Mcompar_count_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.500   0.000  Mcompar_count_cmp_lt0000_cy<0> (Mcompar_count_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_lt0000_cy<1> (Mcompar_count_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_lt0000_cy<2> (Mcompar_count_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_lt0000_cy<3> (Mcompar_count_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_lt0000_cy<4> (Mcompar_count_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_lt0000_cy<5> (Mcompar_count_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Mcompar_count_cmp_lt0000_cy<6> (Mcompar_count_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.303   0.801  Mcompar_count_cmp_lt0000_cy<7> (Mcompar_count_cmp_lt0000_cy<7>)
+     INV:I->O              1   0.551   0.801  Mcompar_count_cmp_lt0000_cy<7>_inv_INV_0 (count_cmp_lt0000)
+     FDR:R                     1.026          count
+    ----------------------------------------
+    Total                      6.853ns (4.035ns logic, 2.818ns route)
+                                       (58.9% logic, 41.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              8.910ns (Levels of Logic = 2)
+  Source:            count (FF)
+  Destination:       seg7<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: count to seg7<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.720   1.124  count (count)
+     MUXF5:S->O            1   0.621   0.801  seg7<5>57 (seg7_5_OBUF)
+     OBUF:I->O                 5.644          seg7_5_OBUF (seg7<5>)
+    ----------------------------------------
+    Total                      8.910ns (6.985ns logic, 1.925ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 700 / 7
+-------------------------------------------------------------------------
+Delay:               14.413ns (Levels of Logic = 14)
+  Source:            a<0> (PAD)
+  Destination:       seg7<5> (PAD)
+
+  Data Path: a<0> to seg7<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.801  a_0_IBUF (a_0_IBUF)
+     INV:I->O              1   0.551   1.140  Madd_addsum_not0000<0>1_INV_0 (Madd_addsum_not0000<0>)
+     LUT2:I0->O            1   0.551   0.000  Madd_addsum_lut<0> (Madd_addsum_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  Madd_addsum_cy<0> (Madd_addsum_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_addsum_cy<1> (Madd_addsum_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_addsum_cy<2> (Madd_addsum_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_addsum_cy<3> (Madd_addsum_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_addsum_cy<4> (Madd_addsum_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Madd_addsum_cy<5> (Madd_addsum_cy<5>)
+     MUXCY:CI->O           0   0.064   0.000  Madd_addsum_cy<6> (Madd_addsum_cy<6>)
+     XORCY:CI->O           7   0.904   1.405  Madd_addsum_xor<7> (addsum<7>)
+     LUT4:I0->O            1   0.551   0.000  seg7<5>57_G (N38)
+     MUXF5:I1->O           1   0.360   0.801  seg7<5>57 (seg7_5_OBUF)
+     OBUF:I->O                 5.644          seg7_5_OBUF (seg7<5>)
+    ----------------------------------------
+    Total                     14.413ns (10.266ns logic, 4.147ns route)
+                                       (71.2% logic, 28.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.18 secs
+ 
+--> 
+
+Total memory usage is 355692 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

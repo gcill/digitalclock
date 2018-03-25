@@ -1,0 +1,190 @@
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s200-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s200-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s200-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s200-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 
+xst -intstyle ise -ifn "D:/github/digitalclock/lab07/lablablab.xst" -ofn "D:/github/digitalclock/lab07/lablablab.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lablablab.ucf -p xc3s400-tq144-4 lablablab.ngc lablablab.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o lablablab_map.ncd lablablab.ngd lablablab.pcf 
+par -w -intstyle ise -ol high -t 1 lablablab_map.ncd lablablab.ncd lablablab.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lablablab.twx lablablab.ncd -o lablablab.twr lablablab.pcf -ucf lablablab.ucf 
+bitgen -intstyle ise -f lablablab.ut lablablab.ncd 

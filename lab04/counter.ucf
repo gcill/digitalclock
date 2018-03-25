@@ -1,0 +1,15 @@
+
+NET "seg7[6]" LOC = P135;
+NET "seg7[4]" LOC = P137;
+NET "seg7[5]" LOC = P140;
+NET "seg7[3]" LOC = P141;
+NET "seg7[2]" LOC = P1;
+NET "seg7[1]" LOC = P2;
+NET "seg7[0]" LOC = P4;
+NET "clk" LOC = P127;
+NET "anode[0]" LOC = P5;
+NET "anode[1]" LOC = P6;
+NET "anode[2]" LOC = P131;
+NET "anode[3]" LOC = P130;
+NET "reset" LOC = P8;
+

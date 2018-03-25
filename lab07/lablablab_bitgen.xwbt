@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\github\digitalclock\lab07\lablablab.ncd
+OUTFILE=D:\github\digitalclock\lab07\lablablab.bit
+FAMILY=Spartan3
+PART=xc3s400-4tq144
+WORKINGDIR=D:\github\digitalclock\lab07
+LICENSE=WebPack
+USER_INFO=__0_0_0

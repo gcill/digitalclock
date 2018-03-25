@@ -1,0 +1,32 @@
+
+NET "seg7[6]" LOC = P135;
+NET "seg7[4]" LOC = P137;
+NET "seg7[5]" LOC = P140;
+NET "seg7[3]" LOC = P141;
+NET "seg7[2]" LOC = P1;
+NET "seg7[1]" LOC = P2;
+NET "seg7[0]" LOC = P4;
+NET "a[0]" LOC = P25;
+NET "a[1]" LOC = P24;
+NET "a[2]" LOC = P23;
+NET "a[3]" LOC = P21;
+NET "a[4]" LOC = P20;
+NET "a[5]" LOC = P18;
+NET "a[6]" LOC = P17;
+NET "a[7]" LOC = P15;
+NET "b[0]" LOC = P52;
+NET "b[1]" LOC = P53;
+NET "b[2]" LOC = P55;
+NET "b[3]" LOC = P56;
+NET "b[4]" LOC = P59;
+NET "b[5]" LOC = P60;
+NET "b[6]" LOC = P63;
+NET "b[7]" LOC = P68;
+NET "clk" LOC = P127;
+NET "com[0]" LOC = P130;
+NET "com[1]" LOC = P131;
+NET "button[0]" LOC = P8;
+NET "button[1]" LOC = P10;
+NET "button[2]" LOC = P11;
+NET "button[3]" LOC = P12;
+

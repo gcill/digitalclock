@@ -1,0 +1,8 @@
+V3 4
+FL "D:/dowload/CE 2D/xilinx/lab04/clock.vhd" 2018/03/12.16:10:18 P.20131013
+FL D:/github/digitalclock/lab04/clock.vhd 2018/03/19.12:32:38 P.20131013
+EN work/counter 1521437561 FL D:/github/digitalclock/lab04/clock.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/counter/counter 1521437562 \
+      FL D:/github/digitalclock/lab04/clock.vhd EN work/counter 1521437561
